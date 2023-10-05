@@ -13,7 +13,7 @@ For 'slugifying' your texts: putting-them-into-this-format
 3. **Updates Clipboard**: Replaces the original clipboard text with the transformed version.
 
 ## Usage
-- **Download the executable**: [>>>  HERE  <<<](https://github.com/V3RNE42/slug-creator/blob/main/ClipboardTransformer.exe)
+- **Download the executable**: [>>>  HERE  <<<](https://github.com/V3RNE42/slug-creator/raw/main/ClipboardTransformer.exe)
 - **Run it**: Simply execute the application whenever you need to transform clipboard text.
 - **Shortcut Key**: Optionally, set a shortcut key to run the application for quick access (e.g., Ctrl + Alt + T).
 
