@@ -1,3 +1,5 @@
+![Ron Weasley Funny Vomit](https://github.com/V3RNE42/slug-creator/blob/main/ron-weasley-funny-vomit.webp)
+
 # slug-creator
 For 'slugifying' your texts: putting-them-into-this-format
 
