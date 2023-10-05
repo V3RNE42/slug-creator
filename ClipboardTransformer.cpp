@@ -7,12 +7,12 @@ std::string TransformText(const std::string& original) {
     int charCount = 0;
 
     for (char c : original) {
-        if ((c == ' ' || c == '\n' || c == '\r') && prevChar != '-' && charCount < 39) {
+        if ((c == ' ' || c == '\n' || c == '\r') && prevChar != '-' && charCount < 300) {
             transformed += '-';
             prevChar = '-';
             charCount++;
         }
-        else if (((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9')) && charCount < 39) {
+        else if (((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9')) && charCount < 300) {
             transformed += c;
             prevChar = c;
             charCount++;
