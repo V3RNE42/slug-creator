@@ -13,11 +13,12 @@ For 'slugifying' your texts: putting-them-into-this-format
 3. **Updates Clipboard**: Replaces the original clipboard text with the transformed version.
 
 ## Usage
-- **Run the Executable**: Simply execute the application whenever you need to transform clipboard text.
+- **Download the executable**: [>>>  HERE  <<<](https://github.com/V3RNE42/slug-creator/blob/main/ClipboardTransformer.exe)
+- **Run it**: Simply execute the application whenever you need to transform clipboard text.
 - **Shortcut Key**: Optionally, set a shortcut key to run the application for quick access (e.g., Ctrl + Alt + T).
 
 ## Use Case
-Ideal for developers and IT professionals who often need to create standardized, clean, and compliant names for branches, files, or other entities from existing text.
+Ideal for developers and IT professionals who often need to create standardized, clean, and compliant names for branches, files, or other entities from existing text in a safe way.
 
 ## System Requirements
 - Windows OS
