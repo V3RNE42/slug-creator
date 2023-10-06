@@ -12,14 +12,17 @@ std::string TransformText(const std::string& original) {
             prevChar = '-';
             charCount++;
         }
-        else if (((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9')) && charCount < 300) {
-            transformed += c;
-            prevChar = c;
-            charCount++;
+        else if (((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '-') && charCount < 300) {
+            // Avoid adding consecutive hyphens
+            if (!(c == '-' && prevChar == '-')) {
+                transformed += c;
+                prevChar = c;
+                charCount++;
+            }
         }
     }
-
-    if (!transformed.empty() && transformed.back() == '-') {
+    // Remove extra hyphens at the end
+    while (!transformed.empty() && transformed.back() == '-') {
         transformed.pop_back();
     }
 
